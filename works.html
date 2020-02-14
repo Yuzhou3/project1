@@ -7,14 +7,17 @@
 		body{
 			padding: 0px;
 			margin: 0px;
-			overflow-x: hidden;		}
+			overflow-x: hidden;		
+			}
 
 	.container-one{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		height: 800px;
+		max-height: 800px;
+		margin-left: 60px;
+
 	}
 
 	.container-two{
@@ -22,7 +25,9 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		height: 600px;
+		max-height: 600px;
+		margin-left: 100px;
+		margin-top: 100px;
 	}
 
 	.A .a-top{
@@ -55,8 +60,8 @@
 		display: none;
 		position: absolute;
 		top: 10%;
-		left: 100%;
-		transform: translateX(-125%);
+		left: 98%;
+		transform: translateX(-130%);
 		z-index: 99;
 	}
 
@@ -67,7 +72,7 @@
 	.D .d-top{
 		display: none;
 		position: absolute;
-		top: 55%;
+		top: 56%;
 		left: 0%;
 		transform: translateX(50%);
 		z-index: 99;
@@ -93,8 +98,8 @@
 		display: none;
 		position: absolute;
 		top: 55%;
-		left: 100%;
-		transform: translateX(-125%);
+		left: 97%;
+		transform: translateX(-130%);
 		z-index: 99;
 	}
 
@@ -106,31 +111,31 @@
 
 	<div class="container-one">
 		<div class="A">
-	<img class="a" src="a.jpg" width="120%;">
-	<img class="a-top" src="a-top.jpg">
+	<img class="a" src="a.jpg" width="90%;">
+	<img class="a-top" src="a-top.jpg" width="20%">
 		</div>
 		<div class="B">
-	<img class="b" src="b.jpg" width="100%;">
-	<img class="b-top" src="b-top.jpg">
+	<img class="b" src="b.jpg" width="72%;">
+	<img class="b-top" src="b-top.jpg" width="20%">
 		</div>
 		<div class="C">
-	<img class="c" src="c.jpg" width="120%;">
-	<img class="c-top" src="c-top.jpg">
+	<img class="c" src="c.jpg" width="85%;">
+	<img class="c-top" src="c-top.jpg" width="20%">
 		</div>
 	</div>
 
 	<div class="container-two">
 		<div class="D">
-	<img class="d" src="d.jpg" width="120%;">
-	<img class="d-top" src="d-top.jpg">
+	<img class="d" src="d.jpg" width="70%;">
+	<img class="d-top" src="d-top.jpg" width="20%">
 		</div>
 		<div class="E">
-	<img class="e" src="e.jpg" width="120%;">
-	<img class="e-top" src="e-top.jpg">
+	<img class="e" src="e.jpg" width="70%;">
+	<img class="e-top" src="e-top.jpg" width="20%">
 		</div>
 		<div class="F">
-	<img class="f" src="f.jpg" width="120%;">
-	<img class="f-top" src="f-top.jpg">
+	<img class="f" src="f.jpg" width="75%;">
+	<img class="f-top" src="f-top.jpg" width="20%">
 	</div>
 	</div>
 
